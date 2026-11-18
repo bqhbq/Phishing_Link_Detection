@@ -1,0 +1,8 @@
+# Artifacts sinh tự động bởi notebooks_new/ (parquet, npz, joblib: hàng trăm MB).
+# Tái tạo bằng cách chạy lại Phase 1 → 4. Giữ lại các báo cáo nhỏ dạng csv/json.
+*
+!.gitignore
+!reports/
+reports/*
+!reports/*.csv
+!reports/*.json

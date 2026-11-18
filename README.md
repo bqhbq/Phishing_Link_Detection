@@ -1,8 +1,8 @@
 # Phishing URL Detection using Machine Learning 🛡️
 
 > **Bài tập lớn môn học: Học máy (Machine Learning - CO3117)**
-> **Học kỳ:** 251
-> **Giảng viên hướng dẫn:** Huỳnh Văn Thống
+> **Học kỳ:** 262
+> **Giảng viên hướng dẫn:** Võ Thanh Hùng
 
 ## 📖 Giới thiệu (Introduction)
 
@@ -94,8 +94,8 @@ Vui lòng chạy các Notebook theo thứ tự sau để tái tạo kết quả:
 
 ## 👥 Nhóm thực hiện (Authors)
 
-*   **Nguyễn Phan Thanh Thiên** - *MSSV: 2313220* - Trưởng nhóm, Dev chính.
-*   **Nguyễn Vũ Quang Minh** - *MSSV: 2212071* - Code, test.
+*   **Nguyễn Phan Thanh Thiên** - *MSSV: 2313220*
+*   **Bùi Quang Huy** - *MSSV: 2311124*
 
 ---
 *Dự án này được thực hiện nhằm mục đích học tập và nghiên cứu.*

@@ -1,0 +1,6 @@
+Bước,Số dòng,Bị loại,% còn lại
+Dữ liệu thô,549346,0,100.0
+Sau dropna,549346,0,100.0
+Sau loại URL rỗng,549346,0,100.0
+Sau loại 2 URL chuẩn hóa mâu thuẫn nhãn,549340,6,99.99890779217469
+Sau khử trùng lặp theo URL chuẩn hóa,501550,47790,91.29947246362038

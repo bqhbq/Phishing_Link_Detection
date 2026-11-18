@@ -1,0 +1,37 @@
+{
+  "n_raw": 549346,
+  "n_canonical": 501550,
+  "n_domains": 151535,
+  "phishing_rate": 0.21669026019340046,
+  "imbalance_ratio": 3.614882086105207,
+  "n_skewed_descriptors": 13,
+  "ambiguous_vector_rate": 0.08732130395773104,
+  "lrt": {
+    "statistic": 6097.856461100302,
+    "df": 105,
+    "p_value": 0.0
+  },
+  "cv_pr_auc": {
+    "Logistic Regression": 0.6211678578369885,
+    "Linear SVM": 0.6224028644428298,
+    "Decision Tree (depth 12)": 0.6950604336333922,
+    "k-NN (k=31)": 0.7473124256987,
+    "Random Forest": 0.7932482404040743,
+    "Hist Gradient Boosting": 0.7871499204475905
+  },
+  "paired_ttest": {
+    "best_nonlinear": "Random Forest",
+    "best_linear": "Linear SVM",
+    "t": 9.272672614249636,
+    "p": 0.0007522929208513334
+  },
+  "pca_2d_auc": {
+    "linear": 0.658965621022004,
+    "gbdt": 0.7323999818148754
+  },
+  "boundary_auc": {
+    "Logistic (tuyến tính)": 0.5818100836515729,
+    "Logistic + đa thức bậc 3": 0.6424043007819604,
+    "HistGBDT (phi tuyến)": 0.6605112747772323
+  }
+}

@@ -1,0 +1,8 @@
+Trường,Kiểu (pandas),Kiểu logic,Vai trò,Mô tả,Ví dụ,Số giá trị khác nhau,% thiếu
+URL,str,Chuỗi tự do (≤ vài nghìn ký tự),Đầu vào gốc,"URL thô, phần lớn không có scheme http(s)://",nobell.it/70ffb52d079109dca5664cce6f317373782,507195,0.0
+Label,str,Phân loại nhị phân,Nhãn gốc,"'bad' = phishing/độc hại, 'good' = hợp lệ",bad,2,0.0
+label,int64,"Nhị phân {0,1}",Biến mục tiêu,"Mã hóa: bad → 1 (lớp dương), good → 0",1,2,0.0
+url_norm,str,Chuỗi,Dẫn xuất (đầu vào TF-IDF),"URL chuẩn hóa: bỏ scheme, www., `/` cuối; host viết thường",nobell.it/70ffb52d079109dca5664cce6f317373782,501552,0.0
+host,str,Chuỗi,Dẫn xuất,"Hostname (không gồm userinfo, port)",nobell.it,187612,0.0
+registered_domain,str,Phân loại (lực lượng rất lớn),Khóa nhóm (chia tập),Domain đăng ký theo Public Suffix List (eTLD+1),nobell.it,151536,0.0
+tld,str,Phân loại (lực lượng lớn),Đặc trưng phân loại,"Hậu tố công khai, ví dụ com, co.uk, ru",it,810,0.0

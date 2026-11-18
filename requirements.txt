@@ -7,3 +7,5 @@ matplotlib
 seaborn
 jupyterlab
 tldextract
+xgboost
+ipywidgets
